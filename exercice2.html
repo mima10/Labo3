@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dépenses canadiennes</title>
     <style>
         #patate{
             color: red;
@@ -33,80 +33,84 @@
             background-color:blue;
         }
         tr:nth-child(odd){
-
-            background-color: oklab(lightness a b);
             color: white;
         }
             h3{
                 color: black;
             }
+        tr.black{
+            background-color: black;
+        }
+        td.center{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <h2><b><i>Principales dépenses par trimestre d'une famille canadienne</i></b></h2>
     <table>
         <tr>
-            <td><style></style>Trimestre Dépenses</td>
+            <td>Trimestre Dépenses</td>
             <td>Trimestre 1</td>
             <td>Trimestre 2</td>
             <td>Trimestre 3</td>
             <td>Trimestre 4</td>
         </tr>
         <tr>
-            <td>Nourriture</td>
+            <td class="center">Nourriture</td>
             <td>2400</td>
             <td>2500</td>
             <td>2400</td>
             <td>2800</td>
         </tr>
         <tr>
-            <td>Loyer</td>
+            <td class="center">Loyer</td>
             <td>4500</td>
             <td>4500</td>
             <td>4500</td>
             <td>4500</td>
         </tr>
         <tr>
-            <td>Magasinage</td>
+            <td class="center">Magasinage</td>
             <td>600</td>
             <td>650</td>
             <td>400</td>
             <td>100</td>
         </tr>
         <tr>
-            <td>Loisirs</td>
+            <td class="center">Loisirs</td>
             <td>600</td>
             <td>500</td>
             <td>2000</td>
             <td>200</td>
         </tr>
         <tr>
-            <td>Électricité</td>
+            <td class="center">Électricité</td>
             <td>800</td>
             <td>600</td>
             <td>400</td>
             <td>500</td>
         </tr>
         <tr>
-            <td>Transport</td>
+            <td class="center">Transport</td>
             <td>750</td>
             <td>800</td>
             <td>200</td>
             <td>650</td>
         </tr>
         <tr>
-            <td>Autres</td>
+            <td class="center">Autres</td>
             <td>0</td>
             <td>250</td>
             <td>400</td>
             <td>500</td>
         </tr>
-        <tr>
-            <td bgcolor="black">total</td>
-            <td bgcolor="black">9650</td>
-            <td bgcolor="black">9250</td>
-            <td bgcolor="black">10700</td>
-            <td bgcolor="black">9250</td>
+        <tr class="black">
+            <td>total</td>
+            <td>9650</td>
+            <td>9250</td>
+            <td>10700</td>
+            <td>9250</td>
         </tr>
         <tr>
             <td colspan="4">Grand total</td>
